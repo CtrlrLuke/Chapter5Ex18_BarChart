@@ -104,7 +104,7 @@ void DisplayChart(const int years[], const int populations[], int count)
 /*
    AskToRepeat
    Asks the user if they want to rerun the chart; validates input.
-   Updated to properly clear the input buffer after multiple loops so buffer does not get misaligned after multiple runs.
+   Updated to properly clear the input buffer after multiple loops so buffer does not get misaligned.
 */
 bool AskToRepeat()
 {
